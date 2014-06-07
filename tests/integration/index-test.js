@@ -3,7 +3,7 @@ import { test } from 'ember-qunit';
 import  startApp from '../helpers/start-app';
 
 var App;
-module('Index page', {
+module('Integration - Index', {
     setup: function() {
         App = startApp();
     },
